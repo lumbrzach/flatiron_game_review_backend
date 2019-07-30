@@ -5,3 +5,26 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Platform.destroy_all
+GamePlatform.destroy_all
+Game.destroy_all
+Like.destroy_all
+Rating.destroy_all
+Comment.destroy_all
+
+xbox = Platform.create(name: "XBOX")
+switch = Platform.create(name: "Nintendo Switch")
+pc = Platform.create(name: "PC")
+
+aoe = Game.create(title: "Age of Empires", image: "https://upload.wikimedia.org/wikipedia/en/1/18/Age_of_Empires_Coverart.jpg", release_date: 1997, genre: "Real-time Strategy")
+halo = Game.create(title: "Halo: Combat Evolved", image: "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg", release_date: 2001, genre: "First-person Shooter")
+smash_ult = Game.create(title: "Super Smash Bros. Ultimate", image: "https://cdn02.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_SuperSmashBrosUltimate_02_image420w.jpg", release_date: 2018, genre: "Fighting")
+
+gp1 = GamePlatform.create(game_id: halo.id, platform_id: xbox.id)
+gp2 = GamePlatform.create(game_id: aoe.id, platform_id: pc.id)
+gp3 = GamePlatform.create(game_id: smash_ult.id, platform_id: switch.id)
+
+halo_comment1 = Comment.create(content: "I miss my pistol...", game_id: halo.id)
+halo_comment2 = Comment.create(content: "Did I mention that I miss my pistol", game_id: halo.id)
+aoe_comment1 = Comment.create(content: "Not only was this game a gateway drug for strategy games at large, but you may walk away from it havuing learned some history.", game_id: aoe.id)

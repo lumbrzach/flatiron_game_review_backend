@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  platform: MyString
+  release_date: 1
+  genre: MyString
+  multiplayer: false
+
+two:
+  title: MyString
+  platform: MyString
+  release_date: 1
+  genre: MyString
+  multiplayer: false
