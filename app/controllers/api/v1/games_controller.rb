@@ -11,8 +11,11 @@ class Api::V1::GamesController < ApplicationController
     end
 
     def create
-        @game = Game.create(game_params)
+        @game = Game.create(title: game_params["title"], image: game_params["image"], release_date: game_params["release_date"], genre: game_params["genre"], description: game_params["description"])
         if @game.save
+            game_params["platformIds"].each do |id|
+                @game_platform = GamePlatform.create(game_id: @game.id, platform_id: id)
+            end
         render json: @game, status: :created, include: [:comments, :likes, :ratings, :platforms]
         else
         render json: @game.errors, status: :unprocessable_entity
@@ -32,7 +35,7 @@ class Api::V1::GamesController < ApplicationController
     private
 
     def game_params
-        params.require('game').permit(:title, :image, :release_date, :genre)
+        params.require('game').permit(:title, :image, :release_date, :genre, :description, :platformIds => [])
     end
     
 end
