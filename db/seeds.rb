@@ -115,6 +115,126 @@ supermariobros = Game.create(
     description: "In Super Mario Bros., the player takes on the role of Mario, the protagonist of the series. Mario's younger brother, Luigi, is controlled by the second player in the game's multiplayer mode and assumes the same plot role and functionality as Mario. The objective is to race through the Mushroom Kingdom, survive the main antagonist Bowser's forces, and save Princess Toadstool.[3]:7 The game is a side-scrolling platformer; the player moves from the left side of the screen to the right side in order to reach the flag pole at the end of each level."
 )
 
+skyrim = Game.create(
+    title: "The Elder Scrolls V: Skyrim", 
+    image: "https://images.igdb.com/igdb/image/upload/t_cover_big/yakiwtuy29tu0atooopm.jpg",
+    release_date: 2011, 
+    genre: "RPG",
+    description: "The next chapter in the highly anticipated Elder Scrolls saga arrives from the makers of the 2006 and 2008 Games of the Year, Bethesda Game Studios. Skyrim reimagines and revolutionizes the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose. 
+
+    Play any type of character you can imagine, and do whatever you want; the legendary freedom of choice, storytelling, and adventure of The Elder Scrolls is realized like never before. 
+    
+    Skyrim’s new game engine brings to life a complete virtual world with rolling clouds, rugged mountains, bustling cities, lush fields, and ancient dungeons. 
+    
+    Choose from hundreds of weapons, spells, and abilities. The new character system allows you to play any way you want and define yourself through your actions. 
+    
+    Battle ancient dragons like you’ve never seen. As Dragonborn, learn their secrets and harness their power for yourself."
+)
+modernwarfare = Game.create(
+    title: "Call Of Duty: Modern Warfare", 
+    image: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1lpf.jpg",
+    release_date: 2019, 
+    genre: "Shooter",
+    description: "Prepare to go dark, Modern Warfare is back! 
+
+    The stakes have never been higher as players take on the role of lethal Tier One operators in a heart-racing saga that will affect the global balance of power. Call of Duty: Modern Warfare engulfs fans in an incredibly raw, gritty, provocative narrative that brings unrivaled intensity and shines a light on the changing nature of modern war. Developed by the studio that started it all, Infinity Ward delivers an epic reimagining of the iconic Modern Warfare series from the ground up. 
+    
+    In the visceral and dramatic single-player story campaign, Call of Duty: Modern Warfare pushes boundaries and breaks rules the way only Modern Warfare can. Players will engage in breathtaking covert operations alongside a diverse cast of international special forces throughout iconic European cities and volatile expanses of the Middle East. 
+    
+    And the story doesn’t end there. 
+    
+    In Call of Duty: Modern Warfare, players will be thrust into an immersive narrative spanning the entire game. Players can experience the ultimate online playground with classic multiplayer or squad-up and play cooperatively in a collection of elite operations, accessible to all skill levels."
+)
+
+halo3 = Game.create(
+    title: "Halo 3: ODST", 
+    image: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1lld.jpg",
+    release_date: 2009, 
+    genre: "Shooter",
+    description: "New Mombasa is in ruins, yet the fight is far from over. Halo 3: ODST drops players onto the streets of the besieged city in this first-person shooter. Assume the role of “The Rookie”, an Orbital Drop Shock Trooper, and discover the truth behind the Covenant invasion. Engage in intense online multiplayer battles with the complete collection of Halo 3 multiplayer maps – including three all-new battlefields – and join your teammates in Firefight, a new cooperative mode that pits you against waves of Covenant invaders."
+)
+
+darksouls = Game.create(
+    title: "Dark Souls II", 
+    image: "https://images.igdb.com/igdb/image/upload/t_cover_big/nloqc3fralrxbrgtgr7k.jpg",
+    release_date: 2014, 
+    genre: "RPG",
+    description: "The unique old-school action rpg experience captivated imaginations of gamers worldwide with incredible challenge and intense emotional reward.
+    Dark Souls II brings the franchise’s renowned difficulty & gripping gameplay innovations to both single and multiplayer experiences. 
+    
+    Immerse yourself into mind-bending environments filled with new twisted monsters and deadly bosses that could only come from the imagination of from software. A wide range of threats will prey on human senses & phobias - auditory hallucinations, vertigo, acrophobia, etc."
+)
+
+bf2 = Game.create(
+    title: "Star Wars Battlefront II", 
+    image: "https://images.igdb.com/igdb/image/upload/t_cover_big/l0u3uqmnnj8ws9ysm67k.jpg",
+    release_date: 2017, 
+    genre: "Shooter",
+    description: "Embark on an endless Star Wars action experience from the best-selling Star Wars HD video game franchise of all time. Experience rich multiplayer battlegrounds across all 3 eras - prequel, classic and new trilogy - or rise as a new hero and discover an emotionally gripping single-player story spanning thirty years. 
+
+    Customise and upgrade your heroes, starfighters or troopers - each with unique abilities to exploit in battle. Ride tauntauns or take control of tanks and speeders. Use the Force to prove your worth against iconic characters like Kylo Ren, Darth Maul or Han Solo, as you play a part in a gaming experience inspired by forty years of timeless Star Wars films."
+)
+
+stw = Game.create(
+    title: "Star Wars", 
+    image: "https://images.igdb.com/igdb/image/upload/t_cover_big/nnjvjtn128lthkgjyxz0.jpg",
+    release_date: 1987, 
+    genre: "Platform",
+    description: "Star Wars is a Family Computer video game released in 1987 by Namco. Despite being based on the first Star Wars film. 
+
+    It is the only game in the Star Wars franchise that was released exclusively in Japan. The game is a common side-scrolling platformer where the player controls Luke Skywalker (appearing with black hair due to color limitations), as he travels to join the Rebellion against the Empire."
+)
+
+dk = Game.create(
+    title: "Donkey Kong", 
+    image: "https://images.igdb.com/igdb/image/upload/t_cover_big/sgu8qhg8dm6t3ongrw0j.jpg",
+    release_date: 1981, 
+    genre: "Platform",
+    description: "The player controls Jumpman or Mario in home versions. His objective is to reach the top of the stage to save the Lady (Pauline in home versions), although he must jump over barrels and avoid fire, springoboads and sand piles. It became one of the best selling arcade games of its time and set the basics of the platform subgenre."
+)
+
+freddys = Game.create(
+    title: "Five Nights at Freddy's 2", 
+    image: "https://images.igdb.com/igdb/image/upload/t_cover_big/gijknwoi0dybriqaxnxi.jpg",
+    release_date: 2014, 
+    genre: "Adventure",
+    description: "Welcome back to the new and improved Freddy Fazbear's Pizza!
+
+    In Five Nights at Freddy's 2, the old and aging animatronics are joined by a new cast of characters. They are kid-friendly, updated with the latest in facial recognition technology, tied into local criminal databases, and promise to put on a safe and entertaining show for kids and grown-ups alike!
+    
+    What could go wrong?
+    
+    As the new security guard working nights, your job is to monitor cameras and make sure nothing goes wrong after-hours. The previous guard has complained about the characters trying to get into the office (he has since been moved to day-shift). So to make your job easier, you've been provided with your very own empty Freddy Fazbear head, which should fool the animatronic characters into leaving you alone if they should accidentally enter your office.
+    
+    As always, Fazbear Entertainment is not responsible for death or dismemberment."
+)
+
+eb = Game.create(
+    title: "EarthBound", 
+    image: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1hjh.jpg",
+    release_date: 1994, 
+    genre: "RPG",
+    description: "Join Ness, Paula, Jeff, and Poo in a sci-fi turn-based JRPG adventure as they fight a mysterious alien force named Giygas in a quirky land based off of the real world. 
+
+    EarthBound (known as MOTHER2 in Japan) is a distant sequel to the original EarthBound Beginnings, with many characters, themes, and tunes borrowed from its predecessor. Many of the characters and settings are very similar, but the only explicitly returning character is Giygas, who swears revenge at the end of the first game."
+)
+
+tmb = Game.create(
+    title: "Twisted Metal: Black", 
+    image: "https://images.igdb.com/igdb/image/upload/t_cover_big/j1sj1njkdnsprstxb1lw.jpg",
+    release_date: 2001, 
+    genre: "Racing",
+    description: "Twisted Metal: Black is a vehicle combat video game developed by Incognito Entertainment (formerly Incog Inc.) and designed by Sony Computer Entertainment America for the PlayStation 2 video game console.[1] It is the fifth installment to the Twisted Metal series and was released June 18, 2001. An online enabled multiplayer-only variant, Twisted Metal: Black Online, was released later as a free send away."
+)
+
+
+
+
+
+
+
+
+
 gp1 = GamePlatform.create(game_id: halo.id, platform_id: xbox.id)
 gp2 = GamePlatform.create(game_id: halo.id, platform_id: xbox360.id)
 gp3 = GamePlatform.create(game_id: halo.id, platform_id: xbox1.id)
@@ -134,6 +254,29 @@ gp16 = GamePlatform.create(game_id: mario64.id, platform_id: n64.id)
 gp17 = GamePlatform.create(game_id: mario64.id, platform_id: wii.id)
 gp18 = GamePlatform.create(game_id: mario64.id, platform_id: ds.id)
 gp19 = GamePlatform.create(game_id: supermariobros.id, platform_id: nes.id)
+gp20 = GamePlatform.create(game_id: skyrim.id, platform_id: ps3.id)
+gp21 = GamePlatform.create(game_id: skyrim.id, platform_id: pc.id)
+gp22 = GamePlatform.create(game_id: skyrim.id, platform_id: xbox360.id)
+gp23 = GamePlatform.create(game_id: modernwarfare.id, platform_id: xbox1.id)
+gp24 = GamePlatform.create(game_id: modernwarfare.id, platform_id: ps4.id)
+gp25 = GamePlatform.create(game_id: modernwarfare.id, platform_id: pc.id)
+gp26 = GamePlatform.create(game_id: halo3.id, platform_id: xbox360.id)
+gp27 = GamePlatform.create(game_id: darksouls.id, platform_id: xbox360.id)
+gp28 = GamePlatform.create(game_id: darksouls.id, platform_id: ps3.id)
+gp29 = GamePlatform.create(game_id: darksouls.id, platform_id: pc.id)
+gp30 = GamePlatform.create(game_id: bf2.id, platform_id: xbox1.id)
+gp31 = GamePlatform.create(game_id: bf2.id, platform_id: ps4.id)
+gp32 = GamePlatform.create(game_id: bf2.id, platform_id: pc.id)
+gp33 = GamePlatform.create(game_id: stw.id, platform_id: nes.id)
+gp34 = GamePlatform.create(game_id: dk.id, platform_id: atari.id)
+gp35 = GamePlatform.create(game_id: freddys.id, platform_id: pc.id)
+gp36 = GamePlatform.create(game_id: freddys.id, platform_id: mobile.id)
+gp37 = GamePlatform.create(game_id: eb.id, platform_id: super_nintendo.id)
+gp38 = GamePlatform.create(game_id: tmb.id, platform_id: ps2.id)
+
+
+
+
 
 
 halo_comment1 = Comment.create(content: "I miss my pistol...", game_id: halo.id)
